@@ -63,7 +63,7 @@
         </div>
     </header>
     <!-- Main -->
-    <main>
+    <main id="index">
         <div class="main-container">
             <div class="row center-xs center-sm center-md center-lg">
                 <!-- Col 1 -->

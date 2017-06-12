@@ -62,8 +62,8 @@ button#log-in {
   border: 1px solid grey;
   border-radius: 5px; }
 
-/* line 67, V3-prove-eksame/css/style.scss */
-.main-container {
+/* line 68, V3-prove-eksame/css/style.scss */
+main#index .main-container {
   margin: 25px auto 10px;
   max-width: 1200px;
   width: 100%;
@@ -71,46 +71,58 @@ button#log-in {
   padding: 10px 15px; }
 
 /* line 76, V3-prove-eksame/css/style.scss */
-article img {
+main#index article img {
   width: 100%; }
 
-/* line 81, V3-prove-eksame/css/style.scss */
-section {
+/* line 80, V3-prove-eksame/css/style.scss */
+main#index section {
   padding: 20px;
   margin-bottom: 10px; }
 
-/* line 86, V3-prove-eksame/css/style.scss */
-section#dokumenter {
+/* line 84, V3-prove-eksame/css/style.scss */
+main#index section#dokumenter {
   background-color: darkorange; }
 
-/* line 90, V3-prove-eksame/css/style.scss */
-section#link {
+/* line 87, V3-prove-eksame/css/style.scss */
+main#index section#link {
   background-color: lightblue; }
 
-/* line 94, V3-prove-eksame/css/style.scss */
-section#marked {
+/* line 90, V3-prove-eksame/css/style.scss */
+main#index section#marked {
   background-color: dodgerblue; }
 
-/* line 98, V3-prove-eksame/css/style.scss */
-section#events {
+/* line 93, V3-prove-eksame/css/style.scss */
+main#index section#events {
   background-color: orange; }
 
-/* line 102, V3-prove-eksame/css/style.scss */
+/* line 98, V3-prove-eksame/css/style.scss */
 footer#main-footer {
   background-color: #FFC63C; }
 
-/* line 106, V3-prove-eksame/css/style.scss */
+/* line 103, V3-prove-eksame/css/style.scss */
+main#nyheder .main-container {
+  margin: 25px auto 10px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: white;
+  padding: 10px 15px; }
+
+/* line 110, V3-prove-eksame/css/style.scss */
+main#nyheder img {
+  width: 100%; }
+
+/* line 118, V3-prove-eksame/css/style.scss */
 .footer-container {
   margin: auto;
   max-width: 900px;
   width: 100%;
   padding: 50px 0; }
 
-/* line 114, V3-prove-eksame/css/style.scss */
+/* line 126, V3-prove-eksame/css/style.scss */
 footer .border-right {
   border-right: 1px solid black; }
 
-/* line 117, V3-prove-eksame/css/style.scss */
+/* line 129, V3-prove-eksame/css/style.scss */
 footer .text-center {
   text-align: center; }
 

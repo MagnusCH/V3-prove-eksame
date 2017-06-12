@@ -63,8 +63,35 @@
         </div>
     </header>
     <!-- Main -->
-    <main>
-        <div class="main-container"> </div>
+    <main id="nyheder">
+        <div class="main-container">
+            <div class="row">
+                <!-- Col 1 -->
+                <div class="col-xs-9">
+                    <!-- Article -->
+                    <article>
+                        <h2>Kage</h2>
+                        <p>lorem ipsum lorem ipsum</p> <img src="img/news1.jpg" alt="">
+                        <p>lorem ipsum lorem ipsum</p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h2>Nummer 2</h2>
+                        <p>lorem ipsum lorem ipsum lorem ipsum</p> <img src="img/news2.jpg" alt="">
+                        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum </p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h2>Overskrift</h2>
+                        <p>lorem ipsum lorem ipsum</p> <img src="img/news3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia labore, error tempora cum at dolorum. Quaerat culpa deleniti, praesentium doloribus? Dicta fuga magnam qui, tempore velit reiciendis saepe ex doloremque!</p>
+                    </article>
+                </div>
+                <!-- Col 2 -->
+                <div class="col-xs-3">
+                    <h4>Vores sopnsorer</h4></div>
+            </div>
+        </div>
     </main>
     <!-- Footer -->
     <footer id="main-footer">

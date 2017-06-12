@@ -64,43 +64,55 @@ button#log-in {
     border-radius: 5px;
 }
 
-.main-container {
-    margin: 25px auto 10px;
-    max-width: 1200px;
-    width: 100%;
-    background-color: white;
-    padding: 10px 15px;
-}
-
-article {
-    img {
+main#index {
+    .main-container {
+        margin: 25px auto 10px;
+        max-width: 1200px;
         width: 100%;
+        background-color: white;
+        padding: 10px 15px;
     }
-}
-
-section {
-    padding: 20px;
-    margin-bottom: 10px;
-}
-
-section#dokumenter {
-    background-color: darkorange;
-}
-
-section#link {
-    background-color: lightblue;
-}
-
-section#marked {
-    background-color: dodgerblue;
-}
-
-section#events {
-    background-color: orange;
+    article {
+        img {
+            width: 100%;
+        }
+    }
+    section {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    section#dokumenter {
+        background-color: darkorange;
+    }
+    section#link {
+        background-color: lightblue;
+    }
+    section#marked {
+        background-color: dodgerblue;
+    }
+    section#events {
+        background-color: orange;
+    }
 }
 
 footer#main-footer {
     background-color: #FFC63C;
+}
+
+main#nyheder {
+    .main-container {
+        margin: 25px auto 10px;
+        max-width: 1200px;
+        width: 100%;
+        background-color: white;
+        padding: 10px 15px;
+    }
+    img {
+        width: 100%;
+    }
+    h4 {
+        
+    }
 }
 
 .footer-container {
