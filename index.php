@@ -29,6 +29,7 @@
             </div>
             <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg margin-bot">
                 <div class="col-xs-4">
+                    <!-- Nav -->
                     <nav id="navbar">
                         <ul>
                             <li><a href="#" class="current">Forside</a></li>
@@ -40,15 +41,18 @@
                     </nav>
                 </div>
                 <div class="col-xs-8">
+                    <!-- Form seach -->
                     <form>
                         <input id="seach" type="text" name="search" placeholder="Search.."> </form>
                 </div>
             </div>
             <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
                 <div class="col-xs-12">
+                    <!-- Form login -->
                     <form action="">
                         <input class="log-in-box" type="text" name="brugernavn" placeholder="Brugernavn...">
                         <input class="log-in-box" type="password" name="password" placeholder="Password...">
+                        <!-- button login -->
                         <button id="log-in">Log in</button>
                     </form>
                 </div>
@@ -58,52 +62,69 @@
             </div>
         </div>
     </header>
+    <!-- Main -->
     <main>
         <div class="main-container">
             <div class="row center-xs center-sm center-md center-lg">
+                <!-- Col 1 -->
                 <div class="col-xs-3">
+                    <!-- Article -->
                     <article><img src="img/articleImg1.jpg" alt="Article img 1">
                         <h2>Article 1</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta placeat at hic cupiditate vel modi, natus omnis. Omnis perspiciatis molestias modi quam deserunt tempora corrupti atque dolorem corporis dolore!</p>
                     </article>
+                    <!-- Section -->
                     <section id="dokumenter"> <i class="fa fa-file-text-o  fa-3x"></i>
                         <h3>Dokumenter</h3> </section>
+                    <!-- Article -->
                     <article><img src="img/articleImg2.jpg" alt="Article img 2">
                         <h2>Article 2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores inventore, molestias fugiat quo blanditiis non vitae maiores nobis, quaerat eaque commodi enim earum corporis est amet accusantium nostrum, ratione sequi.</p>
                     </article>
                 </div>
+                <!-- Col 2 -->
                 <div class="col-xs-3">
+                    <!-- Section -->
                     <section id="link"> <i class="fa fa-link fa-3x"></i>
                         <h3>Links</h3> </section>
+                    <!-- Article -->
                     <article> <img src="img/articleImg3.jpg" alt="Article img 3">
                         <h2>Article 3</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias inventore, itaque voluptas perferendis distinctio laboriosam at! Ipsum enim, ut cum? Neque, voluptatibus ipsam eveniet commodi omnis voluptates nemo pariatur alias.</p>
                     </article>
+                    <!-- Article -->
                     <article> <img src="img/articleImg4.jpg" alt="Article img 4">
                         <h2>Article 4</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius deserunt minus eos, earum, quo iusto expedita, nesciunt magni dolore aperiam! Quia assumenda amet ipsam vero expedita beatae, velit non!</p>
                     </article>
                 </div>
+                <!-- Col 3 -->
                 <div class="col-xs-3">
+                    <!-- Article -->
                     <article><img src="img/articleImg5.jpg" alt="Article img 5">
                         <h2>Article 5</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et reiciendis temporibus at laudantium voluptatibus, in repellat itaque saepe, quia dolore eius. Neque cupiditate necessitatibus, placeat ipsa laudantium eligendi eum.</p>
                     </article>
+                    <!-- Section -->
                     <section id="marked"> <i class="fa fa-shopping-cart fa-3x"></i>
                         <h3>Marked</h3> </section>
+                    <!-- Article -->
                     <article> <img src="img/articleImg6.jpg" alt="Article img 6">
                         <h2>Article </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eius nisi quo, eligendi? Ullam repudiandae veniam officiis porro tempora eaque, natus quasi quae, accusantium, neque quam accusamus earum aperiam. Cumque!</p>
                     </article>
                 </div>
+                <!-- Col 4 -->
                 <div class="col-xs-3">
+                    <!-- Section -->
                     <section id="events"> <i class="fa fa-calendar fa-3x"></i>
                         <h3>Events</h3> </section>
+                    <!-- Article -->
                     <article> <img src="img/articleImg7.jpg" alt="Article 7 img">
                         <h2>Article 7</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste illum itaque dignissimos facilis, dolor eius harum. Dicta quos neque at deserunt dolores, quo veniam nisi. Officiis veniam, commodi saepe maxime.</p>
                     </article>
+                    <!-- Article -->
                     <article> <img src="img/articleImg8.jpg" alt="Article 8 img">
                         <h2>Article 8</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum delectus, repellat, suscipit porro, ducimus inventore id nobis, perspiciatis necessitatibus assumenda quas architecto. Sequi dignissimos ex, itaque quod ut voluptas, quae.</p>
@@ -112,6 +133,7 @@
             </div>
         </div>
     </main>
+    <!-- Footer -->
     <footer id="main-footer">
         <div class="footer-container">
             <div class="row  middle-xs ">
