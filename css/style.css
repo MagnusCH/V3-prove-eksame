@@ -1,2 +1,71 @@
+/* line 1, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+body {
+  background-color: #bbb; }
+
+/* line 5, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+header#main-header {
+  background-color: #FFC63C; }
+
+/* line 9, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+.header-container {
+  margin: auto;
+  max-width: 1366px;
+  width: 100%; }
+
+/* line 17, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px; }
+
+/* line 22, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+nav a {
+  text-decoration: none;
+  color: black; }
+
+/* line 28, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+.current {
+  text-decoration: underline; }
+
+/* line 32, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+input[type=text] {
+  background-image: url(); }
+
+/* line 36, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+.main-container {
+  margin: 25px auto 10px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: white; }
+
+/* line 44, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+article img {
+  width: 100%; }
+
+/* line 49, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+section#dokumenter {
+  background-color: darkorange; }
+
+/* line 53, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+section#link {
+  background-color: lightblue; }
+
+/* line 57, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+section#marked {
+  background-color: dodgerblue; }
+
+/* line 61, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+section#events {
+  background-color: orange; }
+
+/* line 65, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+footer#main-footer {
+  background-color: #FFC63C; }
+
+/* line 69, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+.footer-container {
+  margin: auto;
+  max-width: 900px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

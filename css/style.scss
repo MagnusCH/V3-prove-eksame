@@ -1,0 +1,73 @@
+body {
+    background-color: #bbb;
+}
+
+header#main-header {
+    background-color: #FFC63C;
+}
+
+.header-container {
+    margin: auto;
+    max-width: 1366px;
+    width: 100%;
+}
+
+nav {
+    ul {}
+    li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.current {
+    text-decoration: underline;
+}
+
+input[type=text] {
+    background-image: url();
+}
+
+.main-container {
+    margin: 25px auto 10px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+}
+
+article {
+    img {
+        width: 100%;
+    }
+}
+
+section#dokumenter {
+    background-color: darkorange;
+}
+
+section#link {
+    background-color: lightblue;
+}
+
+section#marked {
+    background-color: dodgerblue;
+}
+
+section#events {
+    background-color: orange;
+}
+
+footer#main-footer {
+    background-color: #FFC63C;
+}
+
+.footer-container {
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+}
