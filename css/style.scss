@@ -1,5 +1,16 @@
 body {
     background-color: #bbb;
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Libre Baskerville';
 }
 
 header#main-header {
@@ -10,6 +21,10 @@ header#main-header {
     margin: auto;
     max-width: 1366px;
     width: 100%;
+}
+
+.margin-bot {
+    margin-bottom: 20px;
 }
 
 nav {
@@ -29,8 +44,24 @@ nav {
     text-decoration: underline;
 }
 
-input[type=text] {
-    background-image: url();
+input[type=text]#seach {
+    background-image: url(../img/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 5px;
+}
+
+input.log-in-box {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button#log-in {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .main-container {
@@ -38,12 +69,18 @@ input[type=text] {
     max-width: 1200px;
     width: 100%;
     background-color: white;
+    padding: 10px 15px;
 }
 
 article {
     img {
         width: 100%;
     }
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 section#dokumenter {
@@ -70,4 +107,14 @@ footer#main-footer {
     margin: auto;
     max-width: 900px;
     width: 100%;
+    padding: 50px 0;
+}
+
+footer {
+    .border-right {
+        border-right: 1px solid black;
+    }
+    .text-center {
+        text-align: center;
+    }
 }

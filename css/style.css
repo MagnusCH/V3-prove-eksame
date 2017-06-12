@@ -1,71 +1,117 @@
-/* line 1, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 1, V3-prove-eksame/css/style.scss */
 body {
-  background-color: #bbb; }
+  background-color: #bbb;
+  font-family: 'Raleway'; }
 
-/* line 5, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 6, V3-prove-eksame/css/style.scss */
+h1 {
+  font-size: 45px; }
+
+/* line 10, V3-prove-eksame/css/style.scss */
+h1,
+h2,
+h3 {
+  font-family: 'Libre Baskerville'; }
+
+/* line 16, V3-prove-eksame/css/style.scss */
 header#main-header {
   background-color: #FFC63C; }
 
-/* line 9, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 20, V3-prove-eksame/css/style.scss */
 .header-container {
   margin: auto;
   max-width: 1366px;
   width: 100%; }
 
-/* line 17, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 26, V3-prove-eksame/css/style.scss */
+.margin-bot {
+  margin-bottom: 20px; }
+
+/* line 32, V3-prove-eksame/css/style.scss */
 nav li {
   display: inline-block;
   list-style: none;
   margin-left: 20px; }
 
-/* line 22, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 37, V3-prove-eksame/css/style.scss */
 nav a {
   text-decoration: none;
   color: black; }
 
-/* line 28, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 43, V3-prove-eksame/css/style.scss */
 .current {
   text-decoration: underline; }
 
-/* line 32, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
-input[type=text] {
-  background-image: url(); }
+/* line 47, V3-prove-eksame/css/style.scss */
+input[type=text]#seach {
+  background-image: url(../img/searchicon.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 5px; }
 
-/* line 36, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 54, V3-prove-eksame/css/style.scss */
+input.log-in-box {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px; }
+
+/* line 60, V3-prove-eksame/css/style.scss */
+button#log-in {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px; }
+
+/* line 67, V3-prove-eksame/css/style.scss */
 .main-container {
   margin: 25px auto 10px;
   max-width: 1200px;
   width: 100%;
-  background-color: white; }
+  background-color: white;
+  padding: 10px 15px; }
 
-/* line 44, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 76, V3-prove-eksame/css/style.scss */
 article img {
   width: 100%; }
 
-/* line 49, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 81, V3-prove-eksame/css/style.scss */
+section {
+  padding: 20px;
+  margin-bottom: 10px; }
+
+/* line 86, V3-prove-eksame/css/style.scss */
 section#dokumenter {
   background-color: darkorange; }
 
-/* line 53, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 90, V3-prove-eksame/css/style.scss */
 section#link {
   background-color: lightblue; }
 
-/* line 57, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 94, V3-prove-eksame/css/style.scss */
 section#marked {
   background-color: dodgerblue; }
 
-/* line 61, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 98, V3-prove-eksame/css/style.scss */
 section#events {
   background-color: orange; }
 
-/* line 65, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 102, V3-prove-eksame/css/style.scss */
 footer#main-footer {
   background-color: #FFC63C; }
 
-/* line 69, ../../xampp/htdocs/proveEksameV3/V3-prove-eksame/css/style.scss */
+/* line 106, V3-prove-eksame/css/style.scss */
 .footer-container {
   margin: auto;
   max-width: 900px;
-  width: 100%; }
+  width: 100%;
+  padding: 50px 0; }
+
+/* line 114, V3-prove-eksame/css/style.scss */
+footer .border-right {
+  border-right: 1px solid black; }
+
+/* line 117, V3-prove-eksame/css/style.scss */
+footer .text-center {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
