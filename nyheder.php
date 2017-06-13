@@ -65,11 +65,94 @@
     <!-- Main -->
     <main id="nyheder">
         <div class="main-container">
+            <div class="row ">
+                <div class="col-xs-12">
+                    <article>
+                        <!-- Form -->
+                        <!-- action:"insert.php" Når du har udfyldt din formular og trykket på indsæt hvad skal der så ske, vi ryger over til insert.php-->
+                        <form action="insert.php" method="get">
+                            <!-- FormGroup-class /heading -->
+                            <div class="formGroup">
+                                <!-- Label-->
+                                <label for="heading"> Artiklens overskrift her: </label>
+                                <!-- Lable end -->
+                                <br>
+                                <!-- Input -->
+                                <input type="text" id="heading" name="heading" placeholder="Overskrift her...">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /heading end -->
+                            <!-- -->
+                            <!-- FormGroup-class /headerText -->
+                            <div class="formGroup">
+                                <!-- Label-->
+                                <label for="headerText"> Artiklens overskrift her: </label>
+                                <!-- Lable end -->
+                                <br>
+                                <!-- Input -->
+                                <input type="text" id="headerText" name="headerText" placeholder="Overskrift sub tekst her...">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /headerText end -->
+                            <!-- -->
+                            <!-- FormGroup-class /imgSrc -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="imgSrc">Billednavn:</label>
+                                <!-- Lable end -->
+                                <br>
+                                <!-- Input -->
+                                <input class="u-full-width" type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /imgSrc end -->
+                            <!-- -->
+                            <!-- FormGroup-class /imgAlt -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="imgAlt">Alt tekst til billede:</label>
+                                <!-- Lable end -->
+                                <br>
+                                <!-- Input -->
+                                <input class="u-full-width" type="text" id="imgAlt" name="imgAlt" placeholder="Alt tekst til billede">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /imgAlt end -->
+                            <!-- -->
+                            <!-- FormGroup-class /articleText -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="articleText">Artiklens tekst her:</label>
+                                <!-- Lable end -->
+                                <br>
+                                <!-- Textarea -->
+                                <textarea class="u-full-width" id "articleText" name="articleText" placeholder="Tekst her..."></textarea>
+                                <!-- Textarea end -->
+                            </div>
+                            <!-- FormGroup-class /imgSrc end -->
+                            <!-- -->
+                            <!-- Indsæt -->
+                            <input class="button-primary" type="submit" value="insæt">
+                            <!-- Indsæt end -->
+                        </form>
+                        <!-- Form end -->
+                    </article>
+                </div>
+            </div>
             <div class="row">
                 <!-- Col 1 -->
                 <div class="col-xs-12 col-ms-9 col-md-9 col-lg-9">
+                    <article>
+                        <?php
+                        // inkludere fetchDb.php
+                        //tager indhold fra en anden fil (fetchDb.php) og ligger det her ind
+                        include "fetchDb.php";
+                        
+                        ?>
+                    </article>
                     <!-- Article -->
                     <article>
+                        <hr>
                         <h2>Kage</h2>
                         <p>lorem ipsum lorem ipsum</p> <img src="img/news1.jpg" alt="">
                         <p>lorem ipsum lorem ipsum</p>
