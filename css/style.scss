@@ -32,7 +32,7 @@ nav {
     li {
         display: inline-block;
         list-style: none;
-        margin-left: 20px;
+        margin-right: 3%;
     }
     a {
         text-decoration: none;
@@ -110,8 +110,26 @@ main#nyheder {
     img {
         width: 100%;
     }
+    hr {
+        border-top: 2px dotted lightgrey;
+    }
+}
+
+aside#sponsorer {
     h4 {
-        
+        font-size: 20px;
+        line-height: 60px;
+        background-color: lightgray;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    img {
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+    .text-center {
+        text-align: center;
     }
 }
 
@@ -128,5 +146,11 @@ footer {
     }
     .text-center {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    aside.d-none {
+        display: none;
     }
 }

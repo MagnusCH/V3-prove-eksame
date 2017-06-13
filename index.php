@@ -23,30 +23,30 @@
     <header id="main-header">
         <div class="header-container">
             <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg ">
-                <div class="col-xs-6">
+                <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6">
                     <h1>Islændere i DK</h1></div>
-                <div class="col-xs-6"><img src="img/medlem-emblem.png" alt="Medlem emblem Logo"> </div>
+                <div class="col-xs-4 col-sm-6 col-md-6 col-lg-6"><img src="img/medlem-emblem.png" alt="Medlem emblem Logo"> </div>
             </div>
-            <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg margin-bot">
-                <div class="col-xs-4">
+            <div class="row between-xs between-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg margin-bot">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                     <!-- Nav -->
                     <nav id="navbar">
                         <ul>
-                            <li><a href="#" class="current">Forside</a></li>
-                            <li><a href="#">Nyheder</a></li>
+                            <li><a href="index.php" class="current">Forside</a></li>
+                            <li><a href="nyheder.php">Nyheder</a></li>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="#">Print</a></li>
                             <li><a href="#">Kontakt</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xs-8">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <!-- Form seach -->
                     <form>
                         <input id="seach" type="text" name="search" placeholder="Search.."> </form>
                 </div>
             </div>
-            <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+            <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
                 <div class="col-xs-12">
                     <!-- Form login -->
                     <form action="">
@@ -67,7 +67,7 @@
         <div class="main-container">
             <div class="row center-xs center-sm center-md center-lg">
                 <!-- Col 1 -->
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <!-- Article -->
                     <article><img src="img/articleImg1.jpg" alt="Article img 1">
                         <h2>Article 1</h2>
@@ -83,7 +83,7 @@
                     </article>
                 </div>
                 <!-- Col 2 -->
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <!-- Section -->
                     <section id="link"> <i class="fa fa-link fa-3x"></i>
                         <h3>Links</h3> </section>
@@ -99,7 +99,7 @@
                     </article>
                 </div>
                 <!-- Col 3 -->
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <!-- Article -->
                     <article><img src="img/articleImg5.jpg" alt="Article img 5">
                         <h2>Article 5</h2>
@@ -115,7 +115,7 @@
                     </article>
                 </div>
                 <!-- Col 4 -->
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <!-- Section -->
                     <section id="events"> <i class="fa fa-calendar fa-3x"></i>
                         <h3>Events</h3> </section>
