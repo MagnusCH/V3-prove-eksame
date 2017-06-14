@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="css/variabler.css">
         <!-- Style -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Google -->
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
