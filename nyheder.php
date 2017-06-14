@@ -48,15 +48,17 @@
                             <input id="seach" type="text" name="search" placeholder="Search.."> </form>
                     </div>
                 </div>
-                <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Hej <bruger>" samt log ud knap -->
+                <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Velkommen <bruger>" samt log ud knap -->
                 <?php 
                             // Tjekker om session er sat og den ikke er tom
                             if(isset($_SESSION['username']) && !empty($_SESSION['username'])) { ?>
                     <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
                         <div class="col-xs-12">
-                            <h4>Velkommen:<?php echo $_SESSION['username']; 
+                            <h4>Velkommen: <br><?php echo $_SESSION['username']; 
                             ?></h4>
-                            <h5><a href="logout.php?logout=true">Log ud</a></h5></div>
+                            <!-- Button log-out -->
+                            <button id="log-out"><a href="logout.php?logout=true">Log ud</a></button>
+                        </div>
                     </div>
                     <!-- Hvis du ikke er logget ind vises nedståede -->
                     <?php
@@ -71,7 +73,7 @@
                                     <!-- Password -->
                                     <input class="log-in-box" type="password" id="pass" name="formPassword" placeholder="Password...">
                                     <!-- button login -->
-                                    <button type="submit" value="Log ind">Log ind</button>
+                                    <button id="log-in" type="submit" value="Log ind">Log ind</button>
                                 </form>
                             </div>
                         </div>
@@ -89,16 +91,16 @@
                 if(isset($_SESSION['username']) 
                    && 
                    !empty($_SESSION['username'])){ ?>
-                    <div class="row ">
+                    <div class="row">
                         <div class="col-xs-12">
-                            <article>
+                            <article id="form">
                                 <!-- Form -->
                                 <!-- action:"insert.php" Når du har udfyldt din formular og trykket på indsæt hvad skal der så ske, vi ryger over til insert.php-->
                                 <form action="insert.php" method="get">
                                     <!-- FormGroup-class /heading -->
                                     <div class="formGroup">
                                         <!-- Label-->
-                                        <label for="heading"> Artiklens overskrift her: </label>
+                                        <label id="heading" for="heading"> <span>Artiklens overskrift her:</span> </label>
                                         <!-- Lable end -->
                                         <br>
                                         <!-- Input -->
@@ -110,7 +112,7 @@
                                     <!-- FormGroup-class /headerText -->
                                     <div class="formGroup">
                                         <!-- Label-->
-                                        <label for="headerText"> Artiklen subtekst her: </label>
+                                        <label for="headerText"> <span>Artiklen subtekst her:</span> </label>
                                         <!-- Lable end -->
                                         <br>
                                         <!-- Input -->
@@ -122,19 +124,19 @@
                                     <!-- FormGroup-class /imgSrc -->
                                     <div class="formGroup">
                                         <!-- Label -->
-                                        <label for="imgSrc">Billednavn:</label>
-                                        <!-- Lable end -->
-                                        <br>
-                                        <!-- Input -->
-                                        <input class="u-full-width" type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
-                                        <!-- Imput end -->
+                                        <label for="imgSrc"><span>Billednavn:</label></span>
+                                            <!-- Lable end -->
+                                            <br>
+                                            <!-- Input -->
+                                            <input class="u-full-width" type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
+                                            <!-- Imput end -->
                                     </div>
                                     <!-- FormGroup-class /imgSrc end -->
                                     <!-- -->
                                     <!-- FormGroup-class /imgAlt -->
                                     <div class="formGroup">
                                         <!-- Label -->
-                                        <label for="imgAlt">Alt tekst til billede:</label>
+                                        <label for="imgAlt"> <span>Alt tekst til billede:</span></label>
                                         <!-- Lable end -->
                                         <br>
                                         <!-- Input -->
@@ -146,7 +148,7 @@
                                     <!-- FormGroup-class /articleText -->
                                     <div class="formGroup">
                                         <!-- Label -->
-                                        <label for="articleText">Artiklens tekst her:</label>
+                                        <label for="articleText"><span>Artiklens tekst her:</span></label>
                                         <!-- Lable end -->
                                         <br>
                                         <!-- Textarea -->
@@ -156,7 +158,7 @@
                                     <!-- FormGroup-class /imgSrc end -->
                                     <!-- -->
                                     <!-- Indsæt -->
-                                    <input class="button-primary" type="submit" value="insæt">
+                                    <input class="button-primary" type="submit" value="Indsæt">
                                     <!-- Indsæt end -->
                                 </form>
                                 <!-- Form end -->

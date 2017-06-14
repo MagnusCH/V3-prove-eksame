@@ -10,52 +10,53 @@ h1 {
 /* line 10, V3-prove-eksame/css/style.scss */
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Libre Baskerville'; }
 
-/* line 16, V3-prove-eksame/css/style.scss */
+/* line 17, V3-prove-eksame/css/style.scss */
 header#main-header {
   background-color: #FFC63C; }
 
-/* line 20, V3-prove-eksame/css/style.scss */
+/* line 21, V3-prove-eksame/css/style.scss */
 .header-container {
   margin: auto;
   max-width: 1366px;
   width: 100%; }
 
-/* line 26, V3-prove-eksame/css/style.scss */
+/* line 27, V3-prove-eksame/css/style.scss */
 .margin-bot {
   margin-bottom: 20px; }
 
-/* line 32, V3-prove-eksame/css/style.scss */
+/* line 33, V3-prove-eksame/css/style.scss */
 nav li {
   display: inline-block;
   list-style: none;
   margin-right: 3%; }
 
-/* line 37, V3-prove-eksame/css/style.scss */
+/* line 38, V3-prove-eksame/css/style.scss */
 nav a {
   text-decoration: none;
   color: black; }
 
-/* line 43, V3-prove-eksame/css/style.scss */
+/* line 44, V3-prove-eksame/css/style.scss */
 .current {
   text-decoration: underline; }
 
-/* line 47, V3-prove-eksame/css/style.scss */
+/* line 48, V3-prove-eksame/css/style.scss */
 input[type=text]#seach {
   background-image: url(../img/searchicon.png);
   background-repeat: no-repeat;
   background-position: 100%;
   padding: 5px; }
 
-/* line 54, V3-prove-eksame/css/style.scss */
+/* line 55, V3-prove-eksame/css/style.scss */
 input.log-in-box {
   border: 1px solid grey;
   padding: 5px;
   border-radius: 5px; }
 
-/* line 60, V3-prove-eksame/css/style.scss */
+/* line 61, V3-prove-eksame/css/style.scss */
 button#log-in {
   background-color: white;
   padding: 5px;
@@ -63,6 +64,54 @@ button#log-in {
   border-radius: 5px; }
 
 /* line 68, V3-prove-eksame/css/style.scss */
+h4 {
+  margin-bottom: 5px;
+  font-size: 20px; }
+
+/* line 74, V3-prove-eksame/css/style.scss */
+.formGroup span {
+  font-size: 20px; }
+
+/* line 77, V3-prove-eksame/css/style.scss */
+.formGroup input {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 50%;
+  height: 25px; }
+
+/* line 85, V3-prove-eksame/css/style.scss */
+.formGroup textarea {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 50%;
+  height: 40px; }
+
+/* line 95, V3-prove-eksame/css/style.scss */
+button#log-out {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px; }
+  /* line 100, V3-prove-eksame/css/style.scss */
+  button#log-out a {
+    text-decoration: none;
+    color: black; }
+
+/* line 106, V3-prove-eksame/css/style.scss */
+input.button-primary {
+  background-color: white;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: underline; }
+
+/* line 117, V3-prove-eksame/css/style.scss */
 main#index .main-container {
   margin: 25px auto 10px;
   max-width: 1200px;
@@ -70,36 +119,44 @@ main#index .main-container {
   background-color: white;
   padding: 10px 15px; }
 
-/* line 76, V3-prove-eksame/css/style.scss */
+/* line 125, V3-prove-eksame/css/style.scss */
 main#index article img {
   width: 100%; }
 
-/* line 80, V3-prove-eksame/css/style.scss */
+/* line 129, V3-prove-eksame/css/style.scss */
 main#index section {
   padding: 20px;
   margin-bottom: 10px; }
 
-/* line 84, V3-prove-eksame/css/style.scss */
+/* line 133, V3-prove-eksame/css/style.scss */
 main#index section#dokumenter {
-  background-color: darkorange; }
+  background-color: darkorange;
+  text-decoration: underline black;
+  color: black; }
 
-/* line 87, V3-prove-eksame/css/style.scss */
+/* line 138, V3-prove-eksame/css/style.scss */
 main#index section#link {
-  background-color: lightblue; }
+  background-color: lightblue;
+  text-decoration: underline black;
+  color: black; }
 
-/* line 90, V3-prove-eksame/css/style.scss */
+/* line 143, V3-prove-eksame/css/style.scss */
 main#index section#marked {
-  background-color: dodgerblue; }
+  background-color: dodgerblue;
+  text-decoration: underline black;
+  color: black; }
 
-/* line 93, V3-prove-eksame/css/style.scss */
+/* line 148, V3-prove-eksame/css/style.scss */
 main#index section#events {
-  background-color: orange; }
+  background-color: orange;
+  text-decoration: underline black;
+  color: black; }
 
-/* line 98, V3-prove-eksame/css/style.scss */
+/* line 155, V3-prove-eksame/css/style.scss */
 footer#main-footer {
   background-color: #FFC63C; }
 
-/* line 103, V3-prove-eksame/css/style.scss */
+/* line 160, V3-prove-eksame/css/style.scss */
 main#nyheder .main-container {
   margin: 25px auto 10px;
   max-width: 1200px;
@@ -107,15 +164,15 @@ main#nyheder .main-container {
   background-color: white;
   padding: 10px 15px; }
 
-/* line 110, V3-prove-eksame/css/style.scss */
+/* line 167, V3-prove-eksame/css/style.scss */
 main#nyheder img {
   width: 100%; }
 
-/* line 113, V3-prove-eksame/css/style.scss */
+/* line 170, V3-prove-eksame/css/style.scss */
 main#nyheder hr {
   border-top: 2px dotted lightgrey; }
 
-/* line 119, V3-prove-eksame/css/style.scss */
+/* line 176, V3-prove-eksame/css/style.scss */
 aside#sponsorer h4 {
   font-size: 20px;
   line-height: 60px;
@@ -123,33 +180,33 @@ aside#sponsorer h4 {
   border: 1px solid grey;
   border-radius: 5px; }
 
-/* line 126, V3-prove-eksame/css/style.scss */
+/* line 183, V3-prove-eksame/css/style.scss */
 aside#sponsorer img {
   border: 1px solid grey;
   border-radius: 5px;
   padding-top: 5px; }
 
-/* line 131, V3-prove-eksame/css/style.scss */
+/* line 188, V3-prove-eksame/css/style.scss */
 aside#sponsorer .text-center {
   text-align: center; }
 
-/* line 136, V3-prove-eksame/css/style.scss */
+/* line 193, V3-prove-eksame/css/style.scss */
 .footer-container {
   margin: auto;
   max-width: 900px;
   width: 100%;
   padding: 50px 0; }
 
-/* line 144, V3-prove-eksame/css/style.scss */
+/* line 201, V3-prove-eksame/css/style.scss */
 footer .border-right {
   border-right: 1px solid black; }
 
-/* line 147, V3-prove-eksame/css/style.scss */
+/* line 204, V3-prove-eksame/css/style.scss */
 footer .text-center {
   text-align: center; }
 
 @media screen and (max-width: 991px) {
-  /* line 153, V3-prove-eksame/css/style.scss */
+  /* line 210, V3-prove-eksame/css/style.scss */
   aside.d-none {
     display: none; } }
 

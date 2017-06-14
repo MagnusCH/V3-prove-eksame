@@ -22,6 +22,6 @@ $statement->bindParam(5, $articleText);
 $statement->bindParam(6, $headerText);
 $statement->execute();
 
-//efter execute kommer tilbage til index.php
+//efter execute kommer tilbage til nyheder.php
 header("location: nyheder.php");
 ?>

@@ -48,15 +48,17 @@
                             <input id="seach" type="text" name="search" placeholder="Search.."> </form>
                     </div>
                 </div>
-                <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Hej <bruger>" samt log ud knap -->
+                <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Velkommen <bruger>" samt log ud knap -->
                 <?php 
                             // Tjekker om session er sat og den ikke er tom
                             if(isset($_SESSION['username']) && !empty($_SESSION['username'])) { ?>
                     <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
                         <div class="col-xs-12">
-                            <h4>Velkommen:<?php echo $_SESSION['username']; 
+                            <h4>Velkommen: <br><?php echo $_SESSION['username']; 
                             ?></h4>
-                            <h5><a href="logout.php?logout=true">Log ud</a></h5></div>
+                            <!-- Button log-out -->
+                            <button id="log-out"><a href="logout.php?logout=true">Log ud</a></button>
+                        </div>
                     </div>
                     <!-- Hvis du ikke er logget ind vises nedståede -->
                     <?php
@@ -71,7 +73,7 @@
                                     <!-- Password -->
                                     <input class="log-in-box" type="password" id="pass" name="formPassword" placeholder="Password...">
                                     <!-- button login -->
-                                    <button type="submit" value="Log ind">Log ind</button>
+                                    <button id="log-in" type="submit" value="Log ind">Log ind</button>
                                 </form>
                             </div>
                         </div>
@@ -92,9 +94,11 @@
                             <h2>Article 1</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta placeat at hic cupiditate vel modi, natus omnis. Omnis perspiciatis molestias modi quam deserunt tempora corrupti atque dolorem corporis dolore!</p>
                         </article>
-                        <!-- Section -->
-                        <section id="dokumenter"> <i class="fa fa-file-text-o  fa-3x"></i>
-                            <h3>Dokumenter</h3> </section>
+                        <!-- Section Dokumenter -->
+                        <a href="#">
+                            <section id="dokumenter"> <i class="fa fa-file-text-o  fa-3x"></i>
+                                <h3>Dokumenter</h3> </section>
+                        </a>
                         <!-- Article -->
                         <article><img src="img/articleImg2.jpg" alt="Article img 2">
                             <h2>Article 2</h2>
@@ -103,9 +107,11 @@
                     </div>
                     <!-- Col 2 -->
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <!-- Section -->
-                        <section id="link"> <i class="fa fa-link fa-3x"></i>
-                            <h3>Links</h3> </section>
+                        <!-- Section Links -->
+                        <a href="#">
+                            <section id="link"> <i class="fa fa-link fa-3x"></i>
+                                <h3>Links</h3> </section>
+                        </a>
                         <!-- Article -->
                         <article> <img src="img/articleImg3.jpg" alt="Article img 3">
                             <h2>Article 3</h2>
@@ -124,9 +130,11 @@
                             <h2>Article 5</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et reiciendis temporibus at laudantium voluptatibus, in repellat itaque saepe, quia dolore eius. Neque cupiditate necessitatibus, placeat ipsa laudantium eligendi eum.</p>
                         </article>
-                        <!-- Section -->
-                        <section id="marked"> <i class="fa fa-shopping-cart fa-3x"></i>
-                            <h3>Marked</h3> </section>
+                        <!-- Section Marked -->
+                        <a href="#">
+                            <section id="marked"> <i class="fa fa-shopping-cart fa-3x"></i>
+                                <h3>Marked</h3> </section>
+                        </a>
                         <!-- Article -->
                         <article> <img src="img/articleImg6.jpg" alt="Article img 6">
                             <h2>Article </h2>
@@ -135,9 +143,11 @@
                     </div>
                     <!-- Col 4 -->
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <!-- Section -->
-                        <section id="events"> <i class="fa fa-calendar fa-3x"></i>
-                            <h3>Events</h3> </section>
+                        <!-- Section Events-->
+                        <a href="#">
+                            <section id="events"> <i class="fa fa-calendar fa-3x"></i>
+                                <h3>Events</h3> </section>
+                        </a>
                         <!-- Article -->
                         <article> <img src="img/articleImg7.jpg" alt="Article 7 img">
                             <h2>Article 7</h2>
