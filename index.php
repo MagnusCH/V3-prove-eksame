@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start(); 
+ ?>
     <!DOCTYPE html>
     <html lang="en">
 
@@ -33,8 +34,8 @@
                         <!-- Nav -->
                         <nav id="navbar">
                             <ul>
-                                <li><a href="index.php">Forside</a></li>
-                                <li><a href="nyheder.php" class="current">Nyheder</a></li>
+                                <li><a href="index.php" class="current">Forside</a></li>
+                                <li><a href="nyheder.php">Nyheder</a></li>
                                 <li><a href="#">Sitemap</a></li>
                                 <li><a href="#">Print</a></li>
                                 <li><a href="#">Kontakt</a></li>
@@ -47,23 +48,22 @@
                             <input id="seach" type="text" name="search" placeholder="Search.."> </form>
                     </div>
                 </div>
-                <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
-                    <div class="col-xs-12">
-                        <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Hej <bruger>" samt log ud knap -->
-                        <?php 
+                <!-- Tjek om bruger er logget ind, hvis ja, så skriv "Hej <bruger>" samt log ud knap -->
+                <?php 
                             // Tjekker om session er sat og den ikke er tom
                             if(isset($_SESSION['username']) && !empty($_SESSION['username'])) { ?>
-                            <!-- Brugernavn -->
-                            <input class="log-in-box" type="text" id="user" name="formUsername" placeholder="test...">
-                            <!-- Password -->
-                            <input class="log-in-box" type="password" id="pass" name="formPassword" placeholder="test...">
-                            <!-- button login -->
-                            <button type="submit" value="Log ind">log ud</button>
-                            <?php
-                            }
+                    <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+                        <div class="col-xs-12">
+                            <h4>Velkommen:<?php echo $_SESSION['username']; 
+                            ?></h4>
+                            <h5><a href="logout.php?logout=true">Log ud</a></h5></div>
+                    </div>
+                    <!-- Hvis du ikke er logget ind vises nedståede -->
+                    <?php
+                            } else {
                         ?>
-                                <!-- Hvis bruger ikke er logget ind vises nedenstående -->
-                                <!-- -->
+                        <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+                            <div class="col-xs-12">
                                 <!-- Form login -->
                                 <form action="checkUser.php" method="post">
                                     <!-- Brugernavn -->
@@ -73,11 +73,12 @@
                                     <!-- button login -->
                                     <button type="submit" value="Log ind">Log ind</button>
                                 </form>
-                    </div>
-                </div>
-                <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg ">
-                    <div class="col-xs-12 margin-bot"> <a href="#" alt="Registrer dig her knap">Registrér dig her...</a> </div>
-                </div>
+                            </div>
+                        </div>
+                        <?php }?>
+                            <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg ">
+                                <div class="col-xs-12 margin-bot"> <a href="#" alt="Registrer dig her knap">Registrér dig her...</a> </div>
+                            </div>
             </div>
         </header>
         <!-- Main -->
