@@ -14,7 +14,8 @@ $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 //hvis brugeren ikke findes siger den echo, og går tilbage til index.php
 if(empty($rows)){
-    echo "Kan ikke finde bruger!";
+    echo "<h1>Kan ikke finde bruger!<br>
+    Prøv igen. Hvis du er en robot prøv ikke igen!</h1>";
     header("Refresh:3; url=nyheder.php");
 }
 
@@ -34,12 +35,13 @@ else{
             // i min session vil jeg lagere et username som skal være lig med det brugeren har indtastet
             $_SESSION['username'] = $formUsername;
             
-            //Hvis password også masser kommer vi tilbage til nyheder.php
+            //Hvis password også passer kommer vi tilbage til nyheder.php
             header("location: nyheder.php");
         }
     }
     //Kommer her ned hvis password ikke passer
-    echo "Ikke korrekt password!";
+    echo "<h1>Ikke korrekt password!<br>
+    Prøv igen. Hvis du er en robot prøv ikke igen!</h1>";
     header("Refresh:3; url=nyheder.php");
 
 }

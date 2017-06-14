@@ -23,7 +23,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)){ ?>
             <?php echo $row['time'] ?>
         </p>
         <p>
-            <?php echo $row['articleText'] ?>
+            <?php echo $row['articleText']  ?>
         </p>
     </article>
     <?php    

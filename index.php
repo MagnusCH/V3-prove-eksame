@@ -5,7 +5,15 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>Islændere i DK - lorem ipsum</title>
+        <!-- Keywords -->
+        <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+        <!-- Description (max 150 chars) -->
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident dolorum, asperiores fuga magni magnam veritatis voluptates unde optio, recusandae.">
+        <!-- Author -->
+        <meta name="author" content="Magnus Christensen">
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <!-- Normalize -->
         <link rel="stylesheet" href="css/normalize.css">
         <!-- Font-awesome -->
@@ -18,7 +26,22 @@
         <!-- Variabler -->
         <link rel="stylesheet" href="css/variabler.css">
         <!-- Style -->
-        <link rel="stylesheet" href="css/style.css"> </head>
+        <link rel="stylesheet" href="css/style.css">
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-92498399-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
 
     <body>
         <!-- header -->
@@ -52,7 +75,7 @@
                 <?php 
                             // Tjekker om session er sat og den ikke er tom
                             if(isset($_SESSION['username']) && !empty($_SESSION['username'])) { ?>
-                    <div class="row  end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+                    <div class="row center-xs middle-xs middle-sm middle-md middle-lg">
                         <div class="col-xs-12">
                             <h4>Velkommen: <br><?php echo $_SESSION['username']; 
                             ?></h4>
@@ -185,6 +208,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </body>
 
     </html>

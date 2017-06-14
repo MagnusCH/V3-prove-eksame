@@ -13,6 +13,7 @@
     h4 {
         font-family: 'Libre Baskerville';
     }
+    /* Header */
     
     header#main-header {
         background-color: #FFC63C;
@@ -27,6 +28,7 @@
     .margin-bot {
         margin-bottom: 20px;
     }
+    /* Nav */
     
     nav {
         ul {}
@@ -38,6 +40,9 @@
         a {
             text-decoration: none;
             color: black;
+        }
+        a:hover {
+            text-decoration: underline black;
         }
     }
     
@@ -65,33 +70,6 @@
         border-radius: 5px;
     }
     
-    h4 {
-        margin-bottom: 5px;
-        font-size: 20px;
-    }
-    
-    .formGroup {
-        span {
-            font-size: 20px;
-        }
-        input {
-            background-color: white;
-            padding: 5px;
-            border: 1px solid grey;
-            border-radius: 5px;
-            width: 50%;
-            height: 25px;
-        }
-        textarea {
-            background-color: white;
-            padding: 5px;
-            border: 1px solid grey;
-            border-radius: 5px;
-            width: 50%;
-            height: 40px;
-        }
-    }
-    
     button#log-out {
         background-color: white;
         padding: 5px;
@@ -103,15 +81,61 @@
         }
     }
     
-    input.button-primary {
-        background-color: white;
-        padding: 5px;
-        margin: 5px 0;
-        border: 1px solid grey;
-        border-radius: 5px;
-        font-size: 20px;
-        text-decoration: underline;
+    h4 {
+        margin-bottom: 5px;
+        font-size: 30px;
     }
+    /* Form */
+    
+    .form-container {
+        max-width: 700px;
+        width: 100%;
+        margin: auto;
+        background-color: lightgray;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .formGroup {
+        padding: 10px;
+        span {
+            font-size: 20px;
+        }
+        input {
+            background-color: white;
+            padding: 5px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            width: 97%;
+            height: 25px;
+        }
+        textarea {
+            background-color: white;
+            padding: 5px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            width: 97%;
+            height: 40px;
+        }
+    }
+    
+    
+    .btn-indsaet {
+        margin-left: 10px;
+        input.button-primary {
+            background-color: white;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid grey;
+            border-radius: 5px;
+            font-size: 20px;
+            width: 150px;
+        }
+        input.button-primary:hover {
+            text-decoration: underline;
+        }
+    }
+    /* Main */
     
     main#index {
         .main-container {
@@ -129,31 +153,21 @@
         section {
             padding: 20px;
             margin-bottom: 10px;
+            text-decoration: underline white;
+            color: white;
         }
         section#dokumenter {
             background-color: darkorange;
-            text-decoration: underline black;
-            color: black;
         }
         section#link {
             background-color: lightblue;
-            text-decoration: underline black;
-            color: black;
         }
         section#marked {
             background-color: dodgerblue;
-            text-decoration: underline black;
-            color: black;
         }
         section#events {
             background-color: orange;
-            text-decoration: underline black;
-            color: black;
         }
-    }
-    
-    footer#main-footer {
-        background-color: #FFC63C;
     }
     
     main#nyheder {
@@ -189,6 +203,11 @@
             text-align: center;
         }
     }
+    /* Footer */
+    
+    footer#main-footer {
+        background-color: #FFC63C;
+    }
     
     .footer-container {
         margin: auto;
@@ -204,6 +223,17 @@
         .text-center {
             text-align: center;
         }
+    }
+    
+    .date {
+        margin: 0 auto;
+        max-width: 200px;
+        background-color: wheat;
+        height: auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        border-radius: 20px;
     }
     
     @media screen and (max-width: 991px) {
